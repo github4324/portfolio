@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: 'Roboto', sans-serif;
+			background-color: #f8f8f8;
+		}
+		.header {
+			background-color: #333;
+			color: #fff;
+			padding: 30px;
+			text-align: center;
+		}
+		h1 {
+			font-size: 48px;
+			margin-top: 0;
+		}
+		.content {
+			margin: 50px 20px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		.card {
+			background-color: #fff;
+			box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+			margin: 20px;
+			padding: 20px;
+			width: 300px;
+			height: 400px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			transition: box-shadow 0.3s ease;
+		}
+		.card:hover {
+			box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+		}
+		.card h2 {
+			font-size: 24px;
+			margin-top: 0;
+		}
+		.card p {
+			font-size: 16px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+		.card button {
+			background-color: #4CAF50;
+			color: #fff;
+			border: none;
+			padding: 10px 20px;
+			font-size: 16px;
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+			align-self: flex-end;
+		}
+		.card button:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<header class="header">
+		<h1>My Portfolio</h1>
+	</header>
+	<main class="content">
+		<div class="card">
+			<h2>Project 1</h2>
+			<p>A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long.</p>
+			<button>View Details</button>
+		</div>
+		<div class="card">
+			<h2>Project 2</h2>
+			<p>A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long..</p>
+			<button>View Details</button>
+		</div>
+		<div class="card">
+			<h2>Project 3</h2>
+			<p>A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long.</p>
+			<button>View Details</button>
+		</div>
+	</main>
+</body>
+</html>
